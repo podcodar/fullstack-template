@@ -1,9 +1,7 @@
 import HeroSection from "@packages/components/HeroSection";
 import { site } from "@packages/settings";
 
-import {
-  type MetaFunction,
-} from "react-router";
+import type { MetaFunction } from "react-router";
 
 const { title, description } = site;
 

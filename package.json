@@ -1,6 +1,6 @@
 {
-	"name": "marco.pages.dev",
-	"homepage": "https://marco.tremtec.com/",
+	"name": "fullstack-template.pages.dev",
+	"homepage": "https://fullstack-template.pages.dev/",
 	"version": "1.0.0",
 	"private": true,
 	"sideEffects": false,

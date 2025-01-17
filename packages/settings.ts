@@ -1,7 +1,5 @@
-import { homepage } from "#/package.json";
-
 export const site = {
-  homepage,
+  homepage: "https://fullstack-template.pages.dev/",
   title: "Welcome to a the new world 🌎",
   description:
     "This is your PodCodar react-router Framework bootstrap, to facilitate your project criation",
@@ -12,20 +10,20 @@ export const cookies = {
 };
 
 export const sitemap = {
-  url: `${homepage}/sitemap.xml`,
+  url: `${site.homepage}/sitemap.xml`,
   urls: [
     {
-      loc: homepage,
+      loc: site.homepage,
       lastmod: "2024-12-26T09:10:00-03:00",
       priority: 1.0,
     },
     {
-      loc: `${homepage}/team/`,
+      loc: `${site.homepage}/team/`,
       lastmod: "2024-12-26T09:10:00-03:00",
       priority: 1.0,
     },
     {
-      loc: `${homepage}/transparency/`,
+      loc: `${site.homepage}/transparency/`,
       lastmod: "2024-12-26T09:10:00-03:00",
       priority: 1.0,
     },

@@ -44,7 +44,8 @@ jobs:
 
       # access preview url
       - name: Inject testing URL
-        run: echo "TEST_URL=https://podcodar.org" >> $GITHUB_ENV
+        run: echo "NODE_ENV=production" >> $GITHUB_ENV
+        # run: echo "TEST_URL=https://podcodar.org" >> $GITHUB_ENV
         # NOTE: using hard-coded URL
         # run: echo "TEST_URL=${{steps.waitFor200.outputs.url}}" >> $GITHUB_ENV
 

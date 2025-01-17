@@ -16,8 +16,8 @@ import {
 
 import "./tailwind.css";
 import Metadata from "@packages/components/Metadata";
-import { selectedTheme } from "./cookies.server";
 import NavBar from "@packages/components/NavBar";
+import { selectedTheme } from "./cookies.server";
 
 export const links: LinksFunction = () => [
   // NOTE: Example of blocking scripts

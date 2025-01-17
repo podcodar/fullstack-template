@@ -3,11 +3,11 @@ import { useState } from "react";
 import { Logo } from "@packages/components/icons";
 
 import Link from "@packages/components/Link";
+import { links, texts } from "@packages/settings";
 import SocialIconLinks from "./SocialIconLinks";
 import ToggleThemeButton from "./ToggleThemeButton";
 import { CloseIcon } from "./icons/CloseIcon";
 import { HamburgerIcon } from "./icons/HamburgerIcon";
-import { links, texts } from "@packages/settings";
 
 const communityLinks = [
   <Link key="home" href={links.home} className="btn btn-sm btn-ghost">

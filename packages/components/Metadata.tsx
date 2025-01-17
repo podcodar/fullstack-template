@@ -1,4 +1,4 @@
-import { site, images } from "@packages/settings";
+import { images, site } from "@packages/settings";
 
 const { title, description, pageURL } = site;
 

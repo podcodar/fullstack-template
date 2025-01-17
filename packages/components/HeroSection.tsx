@@ -1,7 +1,7 @@
 import { Illustration } from "@packages/components/icons";
 
-import Section from "./Section";
 import { links, site, texts } from "@packages/settings";
+import Section from "./Section";
 
 export default function HeroSection() {
   return (
