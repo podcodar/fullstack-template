@@ -1,5 +1,5 @@
 export const site = {
-  homepage: "https://fullstack-template.pages.dev/",
+  homepage: "https://fullstack-template-bng.pages.dev/",
   title: "Welcome to a the new world 🌎",
   description:
     "This is your PodCodar react-router Framework bootstrap, to facilitate your project criation",

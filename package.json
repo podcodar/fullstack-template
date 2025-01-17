@@ -1,6 +1,6 @@
 {
-	"name": "fullstack-template.pages.dev",
-	"homepage": "https://fullstack-template.pages.dev/",
+	"name": "fullstack-template",
+	"homepage": "https://fullstack-template-bng.pages.dev/",
 	"version": "1.0.0",
 	"private": true,
 	"sideEffects": false,
