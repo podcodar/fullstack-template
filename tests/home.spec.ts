@@ -28,7 +28,7 @@ test("has navigation links", async ({ page }) => {
   await sleep(1000);
 
   for (const link of Object.values(links)) {
-    if (typeof link != "string") continue;
+    if (typeof link !== "string") continue;
 
     expect(await page.$(`a[href="${link}"]`)).not.toBeNull();
   }
