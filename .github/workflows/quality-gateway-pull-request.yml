@@ -1,0 +1,32 @@
+name: Running quality gateway on PR
+on: [pull_request]
+
+jobs:
+  quality_gateway:
+    if: '${{ github.event.pull_request.head.repo.full_name == github.repository }}'
+    runs-on: ubuntu-latest
+    environment: Development
+    env:
+      TURSO_AUTH_TOKEN: ${{ secrets.TURSO_AUTH_TOKEN }}
+      TURSO_CONNECTION_URL: ${{ secrets.TURSO_CONNECTION_URL }}
+    steps:
+      - uses: actions/checkout@v2
+      - name: setup bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+      - run: bun install --frozen-lockfile
+      - run: bun lint
+      - run: bunx react-router build
+
+  biome:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: mongolyy/reviewdog-action-biome@v1
+        with:
+          github_token: ${{ secrets.github_token }}
+          reporter: github-pr-review

@@ -1,0 +1,17 @@
+node_modules
+
+/.cache
+/build
+.env
+
+# wrangler
+.wrangler
+.dev.vars
+
+# playwright
+test-results
+playwright-report
+
+# React Router
+/.react-router/
+/build/
