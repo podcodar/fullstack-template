@@ -41,8 +41,8 @@ export const links = {
   home: "/",
 
   social: {
-    linkedin: "https://www.linkedin.com/masouzajr",
-    github: "https://github.com/marco-souza",
+    linkedin: "https://www.linkedin.com/podcodar",
+    github: "https://github.com/podcodar/fullstack-template",
   },
 };
 
