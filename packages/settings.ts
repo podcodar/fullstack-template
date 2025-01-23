@@ -39,7 +39,11 @@ export const images = {
 export const links = {
   // add links
   home: "/",
-  joinUs: "https://podcodar.org",
+
+  cta: {
+    primary: "https://podcodar.org",
+    secondary: "/",
+  },
 
   social: {
     linkedin: "https://www.linkedin.com/podcodar",
@@ -50,4 +54,8 @@ export const links = {
 export const texts = {
   home: "Homepage",
   join: "Join us",
+  cta: {
+    primary: "Join us",
+    secondary: "Learn more",
+  },
 };

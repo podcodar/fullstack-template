@@ -15,12 +15,15 @@ export default function HeroSection() {
           <p className="max-w-3xl text-gray-500">{site.description}</p>
 
           <div className="grid gap-6 grid-cols-2">
-            <a href={links.home} className="btn btn-outline">
-              {texts.home}
+            <a href={links.cta.secondary} className="btn btn-outline">
+              {texts.cta.secondary}
             </a>
 
-            <a href={links.joinUs} className="btn btn-secondary btn-outline">
-              {texts.join}
+            <a
+              href={links.cta.primary}
+              className="btn btn-secondary btn-outline"
+            >
+              {texts.cta.primary}
             </a>
           </div>
         </div>
