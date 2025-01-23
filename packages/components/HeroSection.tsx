@@ -19,7 +19,7 @@ export default function HeroSection() {
               {texts.home}
             </a>
 
-            <a href={links.home} className="btn btn-secondary btn-outline">
+            <a href={links.joinUs} className="btn btn-secondary btn-outline">
               {texts.join}
             </a>
           </div>
