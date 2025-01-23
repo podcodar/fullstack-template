@@ -41,6 +41,7 @@ function NavBar() {
           className="flex w-full items-center justify-center gap-2 md:w-auto"
         >
           <Logo size="small" />
+          <p className="hidden md:inline"> PodCodar </p>
         </Link>
 
         <div className="hidden w-full items-center justify-between md:flex">

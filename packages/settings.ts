@@ -2,7 +2,7 @@ export const site = {
   homepage: "https://fullstack-template-bng.pages.dev/",
   title: "Welcome to the new world 🌎",
   description:
-    "This is your PodCodar react-router Framework bootstrap, to facilitate your project criation",
+    "We've created this fullstack template with React Rounter Framework, Bun, Tailwind CSS, and TypeScript so you don't have to.",
 };
 
 export const cookies = {
@@ -40,6 +40,11 @@ export const links = {
   // add links
   home: "/",
 
+  cta: {
+    primary: "https://podcodar.org",
+    secondary: "/",
+  },
+
   social: {
     linkedin: "https://www.linkedin.com/podcodar",
     github: "https://github.com/podcodar/fullstack-template",
@@ -49,4 +54,8 @@ export const links = {
 export const texts = {
   home: "Homepage",
   join: "Join us",
+  cta: {
+    primary: "Join us",
+    secondary: "Learn more",
+  },
 };
