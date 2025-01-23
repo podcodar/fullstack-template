@@ -19,6 +19,8 @@ jobs:
         with:
           bun-version: latest
 
+      - run: bun upgrade --canary
+
       - name: build vitepress docs (bun)
         env:
           NODE_ENV: production
