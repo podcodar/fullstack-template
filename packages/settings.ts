@@ -32,7 +32,8 @@ export const sitemap = {
 
 export const images = {
   icon: "/images/favicon.svg",
-  logo: "/images/just-llama.png",
+  logo: "/images/favicon.svg",
+  og: "/images/favicon.svg",
   pixQRCode: "/images/pix-qrcode.png",
 };
 
