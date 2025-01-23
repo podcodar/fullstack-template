@@ -33,7 +33,7 @@ export const sitemap = {
 export const images = {
   icon: "/images/favicon.svg",
   logo: "/images/favicon.svg",
-  og: "/images/favicon.svg",
+  og: "https://podcodar.org/images/favicon.svg",
   pixQRCode: "/images/pix-qrcode.png",
 };
 
