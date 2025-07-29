@@ -64,7 +64,7 @@ function NavBar() {
         <div className="navbar grid w-full gap-4 bg-base-100 px-20 py-4 text-center sm:px-30 md:hidden">
           <nav className="mx-auto flex gap-4">{communityLinks}</nav>
 
-          <div className="h-[1px] w-100 bg-gray-200" />
+          <div className="h-[1px] bg-gray-200" />
 
           <div className="flex justify-center gap-4 text-md">
             {actionButtons}
